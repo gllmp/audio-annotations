@@ -1,7 +1,7 @@
 Speech
-"Child speech
+Child speech, kid speaking
 Conversation
-"Narration
+Narration, monologue
 Babbling
 Speech synthesizer
 Shout
@@ -16,11 +16,11 @@ Baby laughter
 Giggle
 Snicker
 Belly laugh
-"Chuckle
-"Crying
-"Baby cry
+Chuckle, chortle
+Crying, sobbing
+Baby cry, infant cry
 Whimper
-"Wail
+Wail, moan
 Sigh
 Singing
 Choir
@@ -46,27 +46,27 @@ Sneeze
 Sniff
 Run
 Shuffle
-"Walk
-"Chewing
+Walk, footsteps
+Chewing, mastication
 Biting
 Gargling
 Stomach rumble
-"Burping
+Burping, eructation
 Hiccup
 Fart
 Hands
 Finger snapping
 Clapping
-"Heart sounds
+Heart sounds, heartbeat
 Heart murmur
 Cheering
 Applause
 Chatter
 Crowd
-"Hubbub
+Hubbub, speech noise, speech babble
 Children playing
 Animal
-"Domestic animals
+Domestic animals, pets
 Dog
 Bark
 Yip
@@ -79,11 +79,11 @@ Purr
 Meow
 Hiss
 Caterwaul
-"Livestock
+Livestock, farm animals, working animals
 Horse
 Clip-clop
-"Neigh
-"Cattle
+Neigh, whinny
+Cattle, bovinae
 Moo
 Cowbell
 Pig
@@ -92,9 +92,9 @@ Goat
 Bleat
 Sheep
 Fowl
-"Chicken
+Chicken, rooster
 Cluck
-"Crowing
+Crowing, cock-a-doodle-doo
 Turkey
 Gobble
 Duck
@@ -102,29 +102,29 @@ Quack
 Goose
 Honk
 Wild animals
-"Roaring cats (lions
+Roaring cats (lions, tigers)
 Roar
 Bird
-"Bird vocalization
-"Chirp
+Bird vocalization, bird call, bird song
+Chirp, tweet
 Squawk
-"Pigeon
+Pigeon, dove
 Coo
 Crow
 Caw
 Owl
 Hoot
-"Bird flight
-"Canidae
-"Rodents
+Bird flight, flapping wings
+Canidae, dogs, wolves
+Rodents, rats, mice
 Mouse
 Patter
 Insect
 Cricket
 Mosquito
-"Fly
+Fly, housefly
 Buzz
-"Bee
+Bee, wasp, etc.
 Frog
 Croak
 Snake
@@ -137,7 +137,7 @@ Guitar
 Electric guitar
 Bass guitar
 Acoustic guitar
-"Steel guitar
+Steel guitar, slide guitar
 Tapping (guitar technique)
 Strum
 Banjo
@@ -173,7 +173,7 @@ Maraca
 Gong
 Tubular bells
 Mallet percussion
-"Marimba
+Marimba, xylophone
 Glockenspiel
 Vibraphone
 Steelpan
@@ -184,11 +184,11 @@ Trumpet
 Trombone
 Bowed string instrument
 String section
-"Violin
+Violin, fiddle
 Pizzicato
 Cello
 Double bass
-"Wind instrument
+Wind instrument, woodwind instrument
 Flute
 Saxophone
 Clarinet
@@ -287,57 +287,57 @@ Rain on surface
 Stream
 Waterfall
 Ocean
-"Waves
+Waves, surf
 Steam
 Gurgling
 Fire
 Crackle
 Vehicle
-"Boat
-"Sailboat
-"Rowboat
-"Motorboat
+Boat, Water vehicle
+Sailboat, sailing ship
+Rowboat, canoe, kayak
+Motorboat, speedboat
 Ship
 Motor vehicle (road)
 Car
-"Vehicle horn
+Vehicle horn, car horn, honking
 Toot
 Car alarm
-"Power windows
+Power windows, electric windows
 Skidding
 Tire squeal
 Car passing by
-"Race car
+Race car, auto racing
 Truck
 Air brake
-"Air horn
+Air horn, truck horn
 Reversing beeps
-"Ice cream truck
+Ice cream truck, ice cream van
 Bus
 Emergency vehicle
 Police car (siren)
 Ambulance (siren)
-"Fire engine
+Fire engine, fire truck (siren)
 Motorcycle
-"Traffic noise
+Traffic noise, roadway noise
 Rail transport
 Train
 Train whistle
 Train horn
-"Railroad car
+Railroad car, train wagon
 Train wheels squealing
-"Subway
+Subway, metro, underground
 Aircraft
 Aircraft engine
 Jet engine
-"Propeller
+Propeller, airscrew
 Helicopter
-"Fixed-wing aircraft
+Fixed-wing aircraft, airplane
 Bicycle
 Skateboard
 Engine
 Light engine (high frequency)
-"Dental drill
+Dental drill, dentist's drill
 Lawn mower
 Chainsaw
 Medium engine (mid frequency)
@@ -345,7 +345,7 @@ Heavy engine (low frequency)
 Engine knocking
 Engine starting
 Idling
-"Accelerating
+Accelerating, revving, vroom
 Door
 Doorbell
 Ding-dong
@@ -356,13 +356,13 @@ Tap
 Squeak
 Cupboard open or close
 Drawer open or close
-"Dishes
-"Cutlery
+Dishes, pots, and pans
+Cutlery, silverware
 Chopping (food)
 Frying (food)
 Microwave oven
 Blender
-"Water tap
+Water tap, faucet
 Sink (filling or washing)
 Bathtub (filling or washing)
 Hair dryer
@@ -374,7 +374,7 @@ Zipper (clothing)
 Keys jangling
 Coin (dropping)
 Scissors
-"Electric shaver
+Electric shaver, electric razor
 Shuffling cards
 Typing
 Typewriter
@@ -384,20 +384,20 @@ Alarm
 Telephone
 Telephone bell ringing
 Ringtone
-"Telephone dialing
+Telephone dialing, DTMF
 Dial tone
 Busy signal
 Alarm clock
 Siren
 Civil defense siren
 Buzzer
-"Smoke detector
+Smoke detector, smoke alarm
 Fire alarm
 Foghorn
 Whistle
 Steam whistle
 Mechanisms
-"Ratchet
+Ratchet, pawl
 Clock
 Tick
 Tick-tock
@@ -419,14 +419,14 @@ Sanding
 Power tool
 Drill
 Explosion
-"Gunshot
+Gunshot, gunfire
 Machine gun
 Fusillade
 Artillery fire
 Cap gun
 Fireworks
 Firecracker
-"Burst
+Burst, pop
 Eruption
 Boom
 Wood
@@ -434,15 +434,15 @@ Chop
 Splinter
 Crack
 Glass
-"Chink
+Chink, clink
 Shatter
 Liquid
-"Splash
+Splash, splatter
 Slosh
 Squish
 Drip
 Pour
-"Trickle
+Trickle, dribble
 Gush
 Fill (with liquid)
 Spray
@@ -451,17 +451,17 @@ Stir
 Boiling
 Sonar
 Arrow
-"Whoosh
-"Thump
+Whoosh, swoosh, swish
+Thump, thud
 Thunk
 Electronic tuner
 Effects unit
 Chorus effect
 Basketball bounce
 Bang
-"Slap
-"Whack
-"Smash
+Slap, smack
+Whack, thwack
+Smash, crash
 Breaking
 Bouncing
 Whip
@@ -471,9 +471,9 @@ Scrape
 Rub
 Roll
 Crushing
-"Crumpling
+Crumpling, crinkling
 Tearing
-"Beep
+Beep, bleep
 Ping
 Ding
 Clang
@@ -487,7 +487,7 @@ Clicking
 Clickety-clack
 Rumble
 Plop
-"Jingle
+Jingle, tinkle
 Hum
 Zing
 Boing
@@ -498,11 +498,11 @@ Harmonic
 Chirp tone
 Sound effect
 Pulse
-"Inside
-"Inside
-"Inside
-"Outside
-"Outside
+Inside, small room
+Inside, large room or hall
+Inside, public space
+Outside, urban or manmade
+Outside, rural or natural
 Reverberation
 Echo
 Noise
