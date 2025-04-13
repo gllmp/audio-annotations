@@ -1,4 +1,4 @@
-# Audio Segmenter
+# Audio Annotations
 
 This script analyzes an audio file by splitting it into segments, classifying the dominant sound in each segment using the [YAMNet](https://tfhub.dev/google/yamnet/1) model from TensorFlow Hub, and merging consecutive segments that share the same label. The final results are stored in a JSON file with time ranges and labels.
 
