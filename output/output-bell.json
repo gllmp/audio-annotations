@@ -1,0 +1,56 @@
+[
+  {
+    "start": 0.0,
+    "end": 5.0,
+    "label": "Silence",
+    "confidence": 0.315
+  },
+  {
+    "start": 4.0,
+    "end": 105.0,
+    "label": "Environmental noise",
+    "confidence": 0.754
+  },
+  {
+    "start": 104.0,
+    "end": 157.0,
+    "label": "Bell",
+    "confidence": 0.954
+  },
+  {
+    "start": 156.0,
+    "end": 161.0,
+    "label": "\"Outside",
+    "confidence": 0.116
+  },
+  {
+    "start": 160.0,
+    "end": 173.0,
+    "label": "Animal",
+    "confidence": 0.589
+  },
+  {
+    "start": 172.0,
+    "end": 177.0,
+    "label": "Environmental noise",
+    "confidence": 0.603
+  },
+  {
+    "start": 176.0,
+    "end": 181.0,
+    "label": "Animal",
+    "confidence": 0.489
+  },
+  {
+    "start": 180.0,
+    "end": 185.0,
+    "label": "Environmental noise",
+    "confidence": 0.55
+  },
+  {
+    "start": 184.0,
+    "end": 190.25,
+    "label": "Silence",
+    "confidence": 1.0
+  }
+]

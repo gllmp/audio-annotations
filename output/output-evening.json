@@ -1,0 +1,80 @@
+[
+  {
+    "start": 0.0,
+    "end": 29.0,
+    "label": "Frog",
+    "confidence": 0.968
+  },
+  {
+    "start": 28.0,
+    "end": 33.0,
+    "label": "Wild animals",
+    "confidence": 0.9
+  },
+  {
+    "start": 32.0,
+    "end": 49.0,
+    "label": "Frog",
+    "confidence": 0.996
+  },
+  {
+    "start": 48.0,
+    "end": 53.0,
+    "label": "Wild animals",
+    "confidence": 0.967
+  },
+  {
+    "start": 52.0,
+    "end": 113.0,
+    "label": "Frog",
+    "confidence": 0.993
+  },
+  {
+    "start": 112.0,
+    "end": 117.0,
+    "label": "Wild animals",
+    "confidence": 0.99
+  },
+  {
+    "start": 116.0,
+    "end": 133.0,
+    "label": "Frog",
+    "confidence": 0.994
+  },
+  {
+    "start": 132.0,
+    "end": 137.0,
+    "label": "Wild animals",
+    "confidence": 0.942
+  },
+  {
+    "start": 136.0,
+    "end": 181.0,
+    "label": "Frog",
+    "confidence": 0.983
+  },
+  {
+    "start": 180.0,
+    "end": 185.0,
+    "label": "Wild animals",
+    "confidence": 0.954
+  },
+  {
+    "start": 184.0,
+    "end": 249.0,
+    "label": "Frog",
+    "confidence": 0.992
+  },
+  {
+    "start": 248.0,
+    "end": 253.0,
+    "label": "Wild animals",
+    "confidence": 0.895
+  },
+  {
+    "start": 252.0,
+    "end": 254.47,
+    "label": "Frog",
+    "confidence": 0.622
+  }
+]
