@@ -19,27 +19,32 @@ pip install tensorflow tensorflow-hub librosa numpy
 
 ## Usage
 
-- Confirm that your input file is a WAV (mono and 16 kHz recommended), otherwise convert it
+1. Convert your input file(s) to WAV if necessary (mono, 16 kHz recommended):
 
 ```bash
 ffmpeg -i input_audio.mp3 -ac 1 -ar 16000 input_audio.wav
 ```
 
-- Run the script from the command line:
+2. Run the script from the command line. You can pass:
+
+- A single `.wav` file:
 
 ```bash
-python audio_segmenter.py <input_audio.wav> <output.json>
+python audio_segmenter.py audio/evening.wav
 ```
 
-For example:
+This will output output/evening.json.
+
+- A folder containing `.wav` files:
 
 ```bash
-python audio_segmenter.py audio/bells.wav output/output-bell.json
-python audio_segmenter.py audio/evening.wav output/output-evening.json
+python audio_segmenter.py audio
 ```
 
-- Check the console output. It will print time ranges with detected labels.
-- View the JSON in the specified output file. Each entry includes:
+This will process all `.wav` files in `audio/`, creating JSON files in the `output/ folder (e.g., `output/evening.json`, `output/bells.json`, etc.).
+
+3. Check the console output. It will print time ranges with detected labels.
+4. View the JSON in the specified output file. Each entry includes:
   - start (seconds)
   - end (seconds)
   - label (YAMNet class)
