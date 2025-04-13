@@ -19,7 +19,12 @@ pip install tensorflow tensorflow-hub librosa numpy
 
 ## Usage
 
-- Confirm that your input file is a WAV (mono and 16 kHz recommended).
+- Confirm that your input file is a WAV (mono and 16 kHz recommended), otherwise convert it
+
+```bash
+ffmpeg -i input_audio.mp3 -ac 1 -ar 16000 input_audio.wav
+```
+
 - Run the script from the command line:
 
 ```bash
