@@ -69,25 +69,41 @@ def analyze_audio(audio_path, model, labels, output_json):
             "confidence": round(seg["confidence"], 3)
         })
 
+    os.makedirs(os.path.dirname(output_json), exist_ok=True)
     with open(output_json, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2)
 
-    print("Analysis complete. Results written to:", output_json)
+    print("Analysis complete for:", audio_path)
+    print("Results written to:", output_json)
     for seg in merged_segments:
         print(f'{seg["start"]:.2f}-{seg["end"]:.2f} {seg["label"]}')
 
-def main(audio_file, output_file):
+def process_single_file(audio_file, model, labels):
+    basename = os.path.splitext(os.path.basename(audio_file))[0]
+    output_json = os.path.join("output", f"{basename}.json")
+    analyze_audio(audio_file, model, labels, output_json)
+
+def process_folder(folder_path, model, labels):
+    for filename in sorted(os.listdir(folder_path)):
+        if filename.lower().endswith(".wav"):
+            audio_file = os.path.join(folder_path, filename)
+            process_single_file(audio_file, model, labels)
+
+def main(input_path):
     model_url = "https://tfhub.dev/google/yamnet/1"
     model = hub.load(model_url)
     label_path = os.path.join(os.path.dirname(__file__), "labels", "yamnet_label_list.txt")
     labels = load_labels(label_path)
-    analyze_audio(audio_file, model, labels, output_file)
+
+    if os.path.isdir(input_path):
+        process_folder(input_path, model, labels)
+    else:
+        process_single_file(input_path, model, labels)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python audio_segmenter.py <input_audio.wav> <output.json>")
+    if len(sys.argv) < 2:
+        print("Usage: python audio_segmenter.py <input_audio_or_folder>")
         sys.exit(1)
 
-    audio_file = sys.argv[1]
-    output_file = sys.argv[2]
-    main(audio_file, output_file)
+    input_path = sys.argv[1]
+    main(input_path)
